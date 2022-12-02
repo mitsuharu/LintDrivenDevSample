@@ -14,6 +14,7 @@
 		9BB89009293A019100D5A561 /* LintDrivenDevSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89008293A019100D5A561 /* LintDrivenDevSampleTests.swift */; };
 		9BB89013293A019100D5A561 /* LintDrivenDevSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89012293A019100D5A561 /* LintDrivenDevSampleUITests.swift */; };
 		9BB89015293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89014293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift */; };
+		9BF7260C293A1806008DBDC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7260B293A1806008DBDC2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9BB8900E293A019100D5A561 /* LintDrivenDevSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LintDrivenDevSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB89012293A019100D5A561 /* LintDrivenDevSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleUITests.swift; sourceTree = "<group>"; };
 		9BB89014293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BF7260B293A1806008DBDC2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9BB88FF9293A018F00D5A561 /* ContentView.swift */,
 				9BB88FFB293A019100D5A561 /* Assets.xcassets */,
 				9BB88FFD293A019100D5A561 /* Preview Content */,
+				9BF7260B293A1806008DBDC2 /* User.swift */,
 			);
 			path = LintDrivenDevSample;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				9BB88FFA293A018F00D5A561 /* ContentView.swift in Sources */,
 				9BB88FF8293A018F00D5A561 /* LintDrivenDevSampleApp.swift in Sources */,
+				9BF7260C293A1806008DBDC2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
