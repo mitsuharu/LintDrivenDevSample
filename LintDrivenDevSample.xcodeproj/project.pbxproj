@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7009FB293A229A00A4F7F2 /* LintRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7009FA293A229A00A4F7F2 /* LintRule.swift */; };
 		9BB88FF8293A018F00D5A561 /* LintDrivenDevSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB88FF7293A018F00D5A561 /* LintDrivenDevSampleApp.swift */; };
 		9BB88FFA293A018F00D5A561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB88FF9293A018F00D5A561 /* ContentView.swift */; };
 		9BB88FFC293A019100D5A561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB88FFB293A019100D5A561 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		9BB89009293A019100D5A561 /* LintDrivenDevSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89008293A019100D5A561 /* LintDrivenDevSampleTests.swift */; };
 		9BB89013293A019100D5A561 /* LintDrivenDevSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89012293A019100D5A561 /* LintDrivenDevSampleUITests.swift */; };
 		9BB89015293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB89014293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift */; };
+		9BF7260C293A1806008DBDC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7260B293A1806008DBDC2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B7009FA293A229A00A4F7F2 /* LintRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintRule.swift; sourceTree = "<group>"; };
 		9BB88FF4293A018F00D5A561 /* LintDrivenDevSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintDrivenDevSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB88FF7293A018F00D5A561 /* LintDrivenDevSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleApp.swift; sourceTree = "<group>"; };
 		9BB88FF9293A018F00D5A561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		9BB8900E293A019100D5A561 /* LintDrivenDevSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LintDrivenDevSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB89012293A019100D5A561 /* LintDrivenDevSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleUITests.swift; sourceTree = "<group>"; };
 		9BB89014293A019100D5A561 /* LintDrivenDevSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BF7260B293A1806008DBDC2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				9BB88FF9293A018F00D5A561 /* ContentView.swift */,
 				9BB88FFB293A019100D5A561 /* Assets.xcassets */,
 				9BB88FFD293A019100D5A561 /* Preview Content */,
+				9BF7260B293A1806008DBDC2 /* User.swift */,
+				9B7009FA293A229A00A4F7F2 /* LintRule.swift */,
 			);
 			path = LintDrivenDevSample;
 			sourceTree = "<group>";
@@ -141,8 +147,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				9BF72607293A0C3B008DBDC2 /* PBXTargetDependency */,
 			);
 			name = LintDrivenDevSample;
+			packageProductDependencies = (
+			);
 			productName = LintDrivenDevSample;
 			productReference = 9BB88FF4293A018F00D5A561 /* LintDrivenDevSample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 9BB88FEB293A018F00D5A561;
+			packageReferences = (
+				9BF72605293A0C2D008DBDC2 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 9BB88FF5293A018F00D5A561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7009FB293A229A00A4F7F2 /* LintRule.swift in Sources */,
 				9BB88FFA293A018F00D5A561 /* ContentView.swift in Sources */,
 				9BB88FF8293A018F00D5A561 /* LintDrivenDevSampleApp.swift in Sources */,
+				9BF7260C293A1806008DBDC2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +305,10 @@
 			isa = PBXTargetDependency;
 			target = 9BB88FF3293A018F00D5A561 /* LintDrivenDevSample */;
 			targetProxy = 9BB8900F293A019100D5A561 /* PBXContainerItemProxy */;
+		};
+		9BF72607293A0C3B008DBDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9BF72606293A0C3B008DBDC2 /* SwiftLintPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -577,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BF72605293A0C2D008DBDC2 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = revision;
+				revision = ab143685a4fce456183565e302fbaa47cd3e8d83;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BF72606293A0C3B008DBDC2 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BF72605293A0C2D008DBDC2 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BB88FEC293A018F00D5A561 /* Project object */;
 }
