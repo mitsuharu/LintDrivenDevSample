@@ -192,3 +192,15 @@ line_length:
 identifier_name:
   min_length:
     warning: 1 # `r` `g` `b` などを使いたいため
+
+# カスタムルール
+custom_rules:
+  # append() ではなく append(contentsOf: ) を使うように設定する
+  must_use_append_contentsOf:
+    included: "LintDrivenDevSample\/.+\\.swift"
+    name: "must use append(contentsOf: )"
+    regex: "\\.append\\((?![\\s]*contentsOf)"
+    match_kinds:
+      - identifier
+    message: "要素追加は append() ではなく append(contentsOf: ) を使ってください"
+    severity: error

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7009FB293A229A00A4F7F2 /* LintRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7009FA293A229A00A4F7F2 /* LintRule.swift */; };
 		9BB88FF8293A018F00D5A561 /* LintDrivenDevSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB88FF7293A018F00D5A561 /* LintDrivenDevSampleApp.swift */; };
 		9BB88FFA293A018F00D5A561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB88FF9293A018F00D5A561 /* ContentView.swift */; };
 		9BB88FFC293A019100D5A561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB88FFB293A019100D5A561 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B7009FA293A229A00A4F7F2 /* LintRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintRule.swift; sourceTree = "<group>"; };
 		9BB88FF4293A018F00D5A561 /* LintDrivenDevSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintDrivenDevSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB88FF7293A018F00D5A561 /* LintDrivenDevSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintDrivenDevSampleApp.swift; sourceTree = "<group>"; };
 		9BB88FF9293A018F00D5A561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				9BB88FFB293A019100D5A561 /* Assets.xcassets */,
 				9BB88FFD293A019100D5A561 /* Preview Content */,
 				9BF7260B293A1806008DBDC2 /* User.swift */,
+				9B7009FA293A229A00A4F7F2 /* LintRule.swift */,
 			);
 			path = LintDrivenDevSample;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7009FB293A229A00A4F7F2 /* LintRule.swift in Sources */,
 				9BB88FFA293A018F00D5A561 /* ContentView.swift in Sources */,
 				9BB88FF8293A018F00D5A561 /* LintDrivenDevSampleApp.swift in Sources */,
 				9BF7260C293A1806008DBDC2 /* User.swift in Sources */,
